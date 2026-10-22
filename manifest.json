@@ -1,0 +1,28 @@
+{
+  "name": "character-reference-sheet",
+  "version": "1.0.0",
+  "owner": "Lonc2100",
+  "target_platforms": [
+    "agent-skills-compatible"
+  ],
+  "permissions": {
+    "generation": "only on explicit image request",
+    "publication": "not part of runtime"
+  },
+  "evidence_boundary": {
+    "missing": [
+      "actual image generation",
+      "human visual approval",
+      "cross-client runtime validation"
+    ]
+  },
+  "updated_at": "2026-10-22",
+  "status": "active",
+  "maturity_tier": "production",
+  "release_gates": [
+    "validate_skill",
+    "trigger_eval",
+    "template_integrity",
+    "zip_integrity"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.0.0-qiaomu-lite",
+  "generated_at": "2026-10-22",
+  "package": {
+    "name": "character-reference-sheet",
+    "version": "1.0.0",
+    "owner": "Lonc2100",
+    "maturity_tier": "production",
+    "lifecycle_stage": null,
+    "upstream_inspiration": null,
+    "upstream_sync": {}
+  },
+  "intent": {
+    "description": "制作成年人物四格角色设定图、角色参考图或 character reference sheet 的提示词，并审核四视图一致性。固定竖版2:3、上排正脸和45度肖像、下排无头正侧面身体。用于已批准角色的身份、体型、服装和画风锁定；不用于从零角色创作、儿童设定、剧情关键帧、表情集、海报或视频生成。",
+    "job_to_be_done": "制作成年人物四格角色设定图、角色参考图或 character reference sheet 的提示词，并审核四视图一致性。固定竖版2:3、上排正脸和45度肖像、下排无头正侧面身体。用于已批准角色的身份、体型、服装和画风锁定；不用于从零角色创作、儿童设定、剧情关键帧、表情集、海报或视频生成。",
+    "target_users": [
+      "Qiaomu operator"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "exclusions": [],
+    "qiaomu_defaults": {}
+  },
+  "triggers": {
+    "should_trigger": [
+      "制作成年人物四格角色设定图提示词",
+      "用这些批准图做角色参考图",
+      "make a character reference sheet"
+    ],
+    "should_not_trigger": [
+      "生成海报",
+      "写视频生成提示词",
+      "制作儿童角色参考图"
+    ],
+    "near_neighbor": [
+      "设计剧情关键帧",
+      "创建表情集"
+    ]
+  },
+  "workflow": {
+    "router_rules": [],
+    "compact_workflow": [],
+    "gate_ladder": [],
+    "output_contract": []
+  },
+  "resources": {
+    "references": [
+      "references\\acceptance.md"
+    ],
+    "scripts": [],
+    "evals": [
+      "evals\\trigger_cases.json"
+    ],
+    "reports": [
+      "reports\\creation-handoff.md",
+      "reports\\package-validation.json",
+      "reports\\prior-art-research.md",
+      "reports\\skill-ir.json",
+      "reports\\trigger-eval.json"
+    ]
+  },
+  "portability": {
+    "canonical_format": null,
+    "adapter_targets": [
+      "openai",
+      "claude",
+      "generic",
+      "agent-skills-compatible"
+    ],
+    "activation": {},
+    "execution": {},
+    "trust": {},
+    "permissions": {},
+    "degradation": {}
+  },
+  "gates": {},
+  "evidence_boundary": {
+    "generated_reports_are_evidence": true,
+    "planned_work_is_evidence": false,
+    "missing_external_or_human_evidence_label": "missing evidence",
+    "public_claim_policy": "claim only what local validation, install proof, human review, or provider-backed evidence actually supports"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "threshold": 0.3,
+  "description_concepts": [
+    "sheet"
+  ],
+  "missing_description_concepts": [],
+  "summary": {
+    "total": 8,
+    "passed": 8,
+    "false_positive": 0,
+    "false_negative": 0,
+    "pass_rate": 1.0
+  },
+  "failures": [],
+  "results": {
+    "should_trigger": [
+      {
+        "prompt": "制作成年人物四格角色设定图提示词",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "sheet"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "用这些批准图做角色参考图",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "sheet"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "make a character reference sheet",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "sheet"
+        ],
+        "negative_pattern": null
+      }
+    ],
+    "should_not_trigger": [
+      {
+        "prompt": "生成海报",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.0,
+        "matched_concepts": [],
+        "negative_pattern": "海报"
+      },
+      {
+        "prompt": "写视频生成提示词",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.0,
+        "matched_concepts": [],
+        "negative_pattern": "视频生成"
+      },
+      {
+        "prompt": "制作儿童角色参考图",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "sheet"
+        ],
+        "negative_pattern": "儿童"
+      }
+    ],
+    "near_neighbor": [
+      {
+        "prompt": "设计剧情关键帧",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.0,
+        "matched_concepts": [],
+        "negative_pattern": "剧情关键帧"
+      },
+      {
+        "prompt": "创建表情集",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.0,
+        "matched_concepts": [],
+        "negative_pattern": "表情集"
+      }
+    ]
+  }
+}

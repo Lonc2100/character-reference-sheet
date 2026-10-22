@@ -1,0 +1,106 @@
+Create one clean vertical 2:3 character design reference sheet for <角色身份与成年年龄>.
+Recommended output size: 1024×1536 or 2048×3072.
+IDENTITY, STYLE AND LOCKED DETAILS
+Use the uploaded locked character references only to preserve the same facial identity, adult age, hairstyle, natural body build, outfit and approved identifying details.
+Approved visual style: <目标画风：填写具体画风及表现方式>.
+Approved style reference, if provided: <画风参考及允许继承的特征；没有则填无>.
+Identity references preserve who the character is; style references define how the character is depicted. Do not copy the layout, pose or background of either reference.
+The approved style governs linework, shading, texture, material treatment, lighting representation and anatomical stylization. Never default to a different medium or rendering style.
+Character details: <发型、脸部与必要辨识点>.
+Approved contact-lens / iris color: <锁定美瞳／虹膜颜色>.
+Approved makeup: <锁定妆容>.
+Clothing: <服装、鞋袜与配饰>.
+Body build: <体型与骨架要求>.
+Natural body-proportion target: <自然头身目标>.
+Shoulder, rib-cage and torso-to-leg requirements: <肩宽、胸廓与上下身比例要求>.
+Keep the character faithful to the approved design, consistent and production-readable. Do not redesign the identity, age, face, body build, outfit or contact-lens color.
+CANVAS AND 2×2 GRID
+Use one vertical 2:3 canvas with a clean 2×2 grid.
+The top row occupies approximately 34–36% of the total canvas height.
+The bottom row occupies approximately 64–66% of the total canvas height and must be substantially taller than the top row.
+Place the horizontal separator approximately 35% down from the top, never at the center of the canvas.
+Both columns are equal width.
+Use very thin, straight, neutral separators.
+Use the same plain near-white or light neutral background in all four panels. Keep background tone, palette and lighting or shading treatment consistent with the approved style. No scenery or distracting background texture.
+No text, labels, letters, logos, watermarks or decorative graphics.
+TOP LEFT — FRONTAL BELOW-COLLARBONE IDENTITY PORTRAIT
+Create a very tight frontal identity portrait.
+The crop begins only slightly below the collarbones: show the complete head and hair silhouette, neck, shoulders, collarbones and only a short upper-chest continuation.
+Do not show the waist, abdomen or a large upper-body area.
+The face and head remain the dominant visual subject and must be large, clear and immediately useful for identity sampling.
+The character faces directly toward camera. Head, neck, shoulders and torso remain naturally upright on the same body centerline.
+No head tilt, no neck tilt, no sloping posture and no fashion pose.
+Eyes look naturally toward camera with the approved expression and makeup.
+TOP RIGHT — MATCHED 45-DEGREE BELOW-COLLARBONE PORTRAIT
+Create the same below-collarbone crop and the same apparent face size as the top-left panel.
+Rotate the head, neck, shoulders, rib cage and short visible torso together approximately 45 degrees toward the approved side.
+Do not keep the torso frontal while rotating only the head.
+Head remains upright with no tilt. Eyes remain naturally aligned with the face direction and do not turn independently back toward camera.
+Keep the same identity, hairstyle, hair length, makeup, contact-lens color, exposure and lighting as the top-left panel.
+EYE DESIGN AND COLOR CONSISTENCY
+The approved eye or contact-lens color is a locked identity feature.
+Match the eye shape, iris color and level of detail consistently in both portrait panels.
+Use the eye-design conventions of the approved style. Include realistic iris fibers, pupils and catchlights only when that style calls for them; preserve simplified eye designs when specified.
+Do not change the approved eye color or add unrequested glow, opacity or detail.
+MAKEUP AND FACIAL MARKINGS
+Approved makeup, if any, must remain readable and consistent between the two portrait panels.
+Preserve the specified placement, color and shape of makeup or facial markings in the approved style.
+Do not invent makeup when none is specified. Do not force realistic skin, glossy lips, individual lashes or volumetric shading onto a style that does not use them.
+Do not randomly intensify or remove facial details in one panel.
+BOTTOM LEFT — HEAD-OUT-OF-FRAME FULL-BODY FRONT STUDY
+Create a complete front body study framed from the base of the neck downward to the soles of both shoes.
+The head and face must remain entirely outside the panel. This is a clean reference crop, not severed anatomy.
+Use the full available panel height and width: the body from the neck crop to the shoe soles should occupy approximately 93–96% of the lower-panel height.
+Shoulders, rib cage, pelvis, knees and feet face directly forward.
+Stand upright in a neutral anatomical pose, weight evenly distributed, arms relaxed naturally beside the body.
+No contrapposto, crossed legs, hip thrust, S-curve, tilted shoulders or presentation pose.
+Keep both shoes fully visible and resting on one clear floor line.
+BOTTOM RIGHT — HEAD-OUT-OF-FRAME STRICT 90-DEGREE SIDE STUDY
+Create a strict 90-degree side body study of the same character, also framed from the base of the neck downward to the soles of the shoes.
+The head and face must remain entirely outside the panel. This is a clean reference crop, not severed anatomy.
+Shoulders, rib cage, torso, pelvis, knees and feet all face the same strict side direction.
+Do not use a three-quarter body angle and do not keep the torso frontal.
+Use the same body scale, joint heights, shoe scale and floor line as the bottom-left panel.
+The body from neck crop to shoe soles should also occupy approximately 93–96% of the lower-panel height.
+Keep the complete shoes visible.
+APPROVED ADULT BODY-PROPORTION RULE
+Follow the locked body-proportion target: <自然头身目标>.
+Preserve the approved adult age, build, silhouette and style-specific anatomy. Keep natural proportions when requested; preserve intentional stylization only when explicitly part of the approved design.
+Do not arbitrarily shrink the head, stretch the legs, narrow the shoulders or alter torso length to fit the layout.
+Preserve shoulder width, rib-cage volume, neck length, torso-to-pelvis length, waist position, knee position, hand size and shoe size across views.
+Do not impose a masculine V-taper, exaggerated waist-to-hip ratio, long-leg beauty ideal or other unrequested body redesign.
+The front and strict-side studies must use identical shoulder level, chest depth, waist level, hip level, knee level, body height and shoe scale.
+STYLE-ADAPTIVE DEPICTION
+Render every panel entirely in the approved visual style.
+Preserve its characteristic linework or absence of outlines, shapes, color palette, shading method, edge treatment, surface texture and level of detail.
+Hair, skin, clothing, metal, leather and footwear must follow the same chosen visual language. Make their design readable without forcing a particular material-rendering system.
+Photographic realism, three-dimensional rendering, cel shading, flat illustration, painterly brushwork and other treatments are alternatives determined by the style input, not cumulative requirements.
+Do not add PBR shading, subsurface scattering, photographic pores, plastic gloss, toon outlines, grain or brushwork unless called for by the approved style.
+Do not mix different styles between panels.
+STYLE-ADAPTIVE LIGHT AND SHADING
+Use one coherent lighting or shading treatment across all four panels, chosen to support the approved style and make the identity, clothing and silhouette readable.
+For photographic or volumetrically shaded styles, use a large soft key from camera-side front-upper at approximately 30–45 degrees, with restrained soft bounced fill and controlled edge separation where useful. Preserve readable shadow detail and consistent direction, contrast, exposure and color temperature.
+For line-based, flat-color, cel-shaded or graphic styles, express the same clarity using the style's own linework, color separation and shadow conventions. Do not force volumetric lighting, cast shadows, rim light or realistic reflections where the style does not use them.
+For painterly or textured styles, preserve intentional brushwork or surface texture while keeping identity and clothing details legible.
+Avoid lighting or color effects that obscure the reference or introduce unapproved color shifts.
+CAMERA AND REFERENCE RENDERING
+For the top portraits, use an eye-level, low-distortion view. In photographic styles, a visual equivalent of an 85–105mm portrait lens is suitable; in other styles, preserve the same neutral perspective without imposing photographic rendering.
+For both lower body studies, use the same orthographic-like or long-lens low-distortion reference camera, the same distance and the same scale.
+Do not use wide-angle perspective, low-angle leg extension, high-angle head enlargement or different camera distances between the two body panels.
+Keep the full body studies sharp and production-readable; do not use dramatic depth-of-field blur.
+Keep the background plain and unobtrusive. Preserve intentional stylistic texture while preventing accidental blotches, color contamination or artifacts that obscure the character.
+FOUR-PANEL CONSISTENCY PRIORITY
+All four panels depict exactly the same person, same adult age, same face, same contact-lens color, same hairstyle, same hair length, same body build, same outfit, same shoes, same accessories, same makeup and same rendering style.
+The two upper portraits provide the only face identity samples.
+The two lower panels provide body, clothing and proportion samples only and must contain no heads or faces.
+NEGATIVE CONSTRAINTS
+No 9:16 canvas. No horizontal 16:9 canvas. No three-column layout. No equal-height rows. No centered horizontal divider.
+No waist-up portrait in the top row. No excessive empty space around the head. No different portrait zoom levels.
+No head or face in either lower panel. No cropped hands, legs or shoes. No floating feet or different floor heights.
+No unrequested age change, body-proportion change or tiny floating body study. Preserve deliberate proportions only when approved in the character design.
+No unintended anatomical distortion or inconsistent proportions between views. Do not replace the approved build with a generic fashion or beauty ideal.
+No bent neck, tilted head, uneven shoulders, twisted spine or mismatched head-neck-torso direction.
+No three-quarter body in the strict side panel.
+No identity drift, iris drift, makeup drift, hairstyle drift, clothing drift, body-build drift or inconsistent garment fit.
+No unrequested change of style or medium. No inconsistent compositing, accidental artifacts, oversharpening or effects that obscure the reference. Do not suppress linework, flat shading, brushwork or texture that belong to the approved style.
+No props, scenery, cinematic action, wind, walking motion or expressive gesture.
