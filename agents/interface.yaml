@@ -1,0 +1,16 @@
+interface:
+  display_name: "四格角色参考图"
+  short_description: "锁定成年角色，编译2:3四格设定图提示词并验收一致性"
+  default_prompt: "使用 $character-reference-sheet，保留批准的角色与画风，按模板生成完整提示词；默认不运行生图。"
+
+compatibility:
+  adapter_targets: [openai, claude, generic, agent-skills-compatible]
+
+compatibility:
+  adapter_targets: [openai, claude, generic, agent-skills-compatible]
+
+compatibility:
+  adapter_targets: [openai, claude, generic, agent-skills-compatible]
+
+compatibility:
+  adapter_targets: [openai, claude, generic, agent-skills-compatible]

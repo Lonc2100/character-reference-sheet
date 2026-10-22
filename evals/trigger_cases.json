@@ -1,0 +1,34 @@
+{
+  "recommended_threshold": 0.3,
+  "description_required_concepts": [
+    "sheet"
+  ],
+  "positive_concepts": {
+    "sheet": [
+      "四格角色设定图",
+      "角色参考图",
+      "character reference sheet"
+    ]
+  },
+  "negative_patterns": [
+    "儿童",
+    "剧情关键帧",
+    "视频生成",
+    "海报",
+    "表情集"
+  ],
+  "should_trigger": [
+    "制作成年人物四格角色设定图提示词",
+    "用这些批准图做角色参考图",
+    "make a character reference sheet"
+  ],
+  "should_not_trigger": [
+    "生成海报",
+    "写视频生成提示词",
+    "制作儿童角色参考图"
+  ],
+  "near_neighbor": [
+    "设计剧情关键帧",
+    "创建表情集"
+  ]
+}
