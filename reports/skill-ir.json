@@ -1,9 +1,9 @@
 {
   "schema_version": "2.0.0-qiaomu-lite",
-  "generated_at": "2026-10-22",
+  "generated_at": "2026-10-30",
   "package": {
     "name": "character-reference-sheet",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "owner": "Lonc2100",
     "maturity_tier": "production",
     "lifecycle_stage": null,
@@ -11,30 +11,44 @@
     "upstream_sync": {}
   },
   "intent": {
-    "description": "制作成年人物四格角色设定图、角色参考图或 character reference sheet 的提示词，并审核四视图一致性。固定竖版2:3、上排正脸和45度肖像、下排无头正侧面身体。用于已批准角色的身份、体型、服装和画风锁定；不用于从零角色创作、儿童设定、剧情关键帧、表情集、海报或视频生成。",
-    "job_to_be_done": "制作成年人物四格角色设定图、角色参考图或 character reference sheet 的提示词，并审核四视图一致性。固定竖版2:3、上排正脸和45度肖像、下排无头正侧面身体。用于已批准角色的身份、体型、服装和画风锁定；不用于从零角色创作、儿童设定、剧情关键帧、表情集、海报或视频生成。",
+    "description": "制作成年人物四格角色参考图、character reference sheet及人物参考刷光提示词，检查身份一致性、道具比例参照与人物面光和环境光的匹配。适用于已有批准角色的参考图、夜景贴图感排查与刷光输入准备；不负责从零角色设计、儿童设定、海报、剧情关键帧或直接生成付费视频。",
+    "job_to_be_done": "制作成年人物四格角色参考图、character reference sheet及人物参考刷光提示词，检查身份一致性、道具比例参照与人物面光和环境光的匹配。适用于已有批准角色的参考图、夜景贴图感排查与刷光输入准备；不负责从零角色设计、儿童设定、海报、剧情关键帧或直接生成付费视频。",
     "target_users": [
-      "Qiaomu operator"
+      "AI视频创作者"
     ],
-    "inputs": [],
-    "outputs": [],
-    "exclusions": [],
+    "inputs": [
+      "批准成年角色及身份/画风参考",
+      "可选：同一环境参考"
+    ],
+    "outputs": [
+      "人物参考/刷光提示词",
+      "输入对应和验收结果"
+    ],
+    "exclusions": [
+      "自动付费生成",
+      "自动发布",
+      "编造实际视频结果"
+    ],
     "qiaomu_defaults": {}
   },
   "triggers": {
     "should_trigger": [
-      "制作成年人物四格角色设定图提示词",
+      "制作成年人物四格角色参考图提示词",
       "用这些批准图做角色参考图",
-      "make a character reference sheet"
+      "make a character reference sheet",
+      "按夜景给人物参考刷光，保留白底",
+      "道具比例不稳，要加手作为参考"
     ],
     "should_not_trigger": [
       "生成海报",
-      "写视频生成提示词",
-      "制作儿童角色参考图"
+      "制作儿童角色参考图",
+      "直接付费生成十个视频",
+      "发布视频到抖音"
     ],
     "near_neighbor": [
-      "设计剧情关键帧",
-      "创建表情集"
+      "剪口播视频的气口",
+      "调色真人A-roll",
+      "从零设计剧情关键帧"
     ]
   },
   "workflow": {
@@ -45,7 +59,9 @@
   },
   "resources": {
     "references": [
-      "references\\acceptance.md"
+      "references\\acceptance.md",
+      "references\\relighting-workflow.md",
+      "references\\scale-reference.md"
     ],
     "scripts": [],
     "evals": [
@@ -53,9 +69,8 @@
     ],
     "reports": [
       "reports\\creation-handoff.md",
-      "reports\\package-validation.json",
       "reports\\prior-art-research.md",
-      "reports\\skill-ir.json",
+      "reports\\template-integrity.json",
       "reports\\trigger-eval.json"
     ]
   },

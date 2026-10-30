@@ -1,0 +1,14 @@
+{
+  "version": "1.1.0",
+  "checks": {
+    "single_reference_not_forced_grid": true,
+    "no_images_no_visual_claim": true,
+    "same_environment_video_evidence": true,
+    "no_automatic_paid_generation": true,
+    "no_fake_scale_failure": true,
+    "interface_duplicate_keys": false
+  },
+  "kind": "主模型逐条文本反例审查；非真实模型运行",
+  "fresh_generation": false,
+  "secret_scan_findings": []
+}

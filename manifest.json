@@ -1,6 +1,6 @@
 {
   "name": "character-reference-sheet",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "owner": "Lonc2100",
   "target_platforms": [
     "agent-skills-compatible"
@@ -11,12 +11,12 @@
   },
   "evidence_boundary": {
     "missing": [
-      "actual image generation",
-      "human visual approval",
+      "fresh image/video generation in this release",
+      "cross-model output quality",
       "cross-client runtime validation"
     ]
   },
-  "updated_at": "2026-10-22",
+  "updated_at": "2026-10-30",
   "status": "active",
   "maturity_tier": "production",
   "release_gates": [
@@ -24,5 +24,6 @@
     "trigger_eval",
     "template_integrity",
     "zip_integrity"
-  ]
+  ],
+  "series_episode": "004"
 }

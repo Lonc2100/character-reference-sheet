@@ -1,13 +1,13 @@
 {
   "ok": true,
-  "threshold": 0.3,
+  "threshold": 0.25,
   "description_concepts": [
-    "sheet"
+    "reference"
   ],
   "missing_description_concepts": [],
   "summary": {
-    "total": 8,
-    "passed": 8,
+    "total": 12,
+    "passed": 12,
     "false_positive": 0,
     "false_negative": 0,
     "pass_rate": 1.0
@@ -16,14 +16,14 @@
   "results": {
     "should_trigger": [
       {
-        "prompt": "制作成年人物四格角色设定图提示词",
+        "prompt": "制作成年人物四格角色参考图提示词",
         "family": "default",
         "expected_trigger": true,
         "predicted_trigger": true,
         "passed": true,
         "score": 0.333,
         "matched_concepts": [
-          "sheet"
+          "reference"
         ],
         "negative_pattern": null
       },
@@ -35,7 +35,7 @@
         "passed": true,
         "score": 0.333,
         "matched_concepts": [
-          "sheet"
+          "reference"
         ],
         "negative_pattern": null
       },
@@ -47,7 +47,31 @@
         "passed": true,
         "score": 0.333,
         "matched_concepts": [
-          "sheet"
+          "reference"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "按夜景给人物参考刷光，保留白底",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "reference"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "道具比例不稳，要加手作为参考",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "reference"
         ],
         "negative_pattern": null
       }
@@ -64,16 +88,6 @@
         "negative_pattern": "海报"
       },
       {
-        "prompt": "写视频生成提示词",
-        "family": "default",
-        "expected_trigger": false,
-        "predicted_trigger": false,
-        "passed": true,
-        "score": 0.0,
-        "matched_concepts": [],
-        "negative_pattern": "视频生成"
-      },
-      {
         "prompt": "制作儿童角色参考图",
         "family": "default",
         "expected_trigger": false,
@@ -81,14 +95,54 @@
         "passed": true,
         "score": 0.333,
         "matched_concepts": [
-          "sheet"
+          "reference"
         ],
         "negative_pattern": "儿童"
+      },
+      {
+        "prompt": "直接付费生成十个视频",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.0,
+        "matched_concepts": [],
+        "negative_pattern": "付费生成"
+      },
+      {
+        "prompt": "发布视频到抖音",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.0,
+        "matched_concepts": [],
+        "negative_pattern": "发布视频"
       }
     ],
     "near_neighbor": [
       {
-        "prompt": "设计剧情关键帧",
+        "prompt": "剪口播视频的气口",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.0,
+        "matched_concepts": [],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "调色真人A-roll",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.0,
+        "matched_concepts": [],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "从零设计剧情关键帧",
         "family": "default",
         "expected_trigger": false,
         "predicted_trigger": false,
@@ -96,16 +150,6 @@
         "score": 0.0,
         "matched_concepts": [],
         "negative_pattern": "剧情关键帧"
-      },
-      {
-        "prompt": "创建表情集",
-        "family": "default",
-        "expected_trigger": false,
-        "predicted_trigger": false,
-        "passed": true,
-        "score": 0.0,
-        "matched_concepts": [],
-        "negative_pattern": "表情集"
       }
     ]
   }

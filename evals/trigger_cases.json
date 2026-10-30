@@ -1,34 +1,41 @@
 {
-  "recommended_threshold": 0.3,
+  "recommended_threshold": 0.25,
   "description_required_concepts": [
-    "sheet"
+    "reference"
   ],
   "positive_concepts": {
-    "sheet": [
-      "四格角色设定图",
+    "reference": [
+      "四格角色参考图",
       "角色参考图",
-      "character reference sheet"
+      "character reference sheet",
+      "人物参考",
+      "刷光",
+      "道具比例"
     ]
   },
   "negative_patterns": [
     "儿童",
-    "剧情关键帧",
-    "视频生成",
     "海报",
-    "表情集"
+    "剧情关键帧",
+    "付费生成",
+    "发布视频"
   ],
   "should_trigger": [
-    "制作成年人物四格角色设定图提示词",
+    "制作成年人物四格角色参考图提示词",
     "用这些批准图做角色参考图",
-    "make a character reference sheet"
+    "make a character reference sheet",
+    "按夜景给人物参考刷光，保留白底",
+    "道具比例不稳，要加手作为参考"
   ],
   "should_not_trigger": [
     "生成海报",
-    "写视频生成提示词",
-    "制作儿童角色参考图"
+    "制作儿童角色参考图",
+    "直接付费生成十个视频",
+    "发布视频到抖音"
   ],
   "near_neighbor": [
-    "设计剧情关键帧",
-    "创建表情集"
+    "剪口播视频的气口",
+    "调色真人A-roll",
+    "从零设计剧情关键帧"
   ]
 }
