@@ -26,7 +26,7 @@ npx skills add Lonc2100/character-reference-sheet --skill character-reference-sh
 
 ## 第四期更新
 
-v1.1.0在原v1.0.0人物参考Skill上增加人物参考刷光、同环境视频验证和道具比例证据边界，修正接口文件的重复配置。保留原四格完整模板，不用“模型偷懒”替代已证明的内部机制。
+v1.1.1在原v1.0.0人物参考Skill上增加人物参考刷光、同环境视频验证和道具比例证据边界，修正接口文件的重复配置。保留原四格完整模板，不用“模型偷懒”替代已证明的内部机制。
 
 ## Troubleshooting
 
@@ -39,3 +39,5 @@ v1.1.0在原v1.0.0人物参考Skill上增加人物参考刷光、同环境视频
 本包reports保存模板完整性、结构、触发边界和安装记录，说明真实覆盖范围。维护者可用qiaomu-meta-skill的validate_skill.py及trigger_eval.py复查；它们不是使用Skill的运行依赖。
 
 MIT；保留原仓库LICENSE。
+
+2026-10-30 v1.1.1：第四期人物参考与刷光模板以作者本轮提供原文为准。人物模板完整保留，刷光使用中文原文，不用AI另写通用版替代。

@@ -1,5 +1,10 @@
 {
-  "preserved_public_v100_template": true,
-  "sha256": "7f98be8291fe64b8e06008e88b14bb0fe09fb3e52676814482b9adbe27f7e2e9",
+  "version": "1.1.1",
+  "canonical_source": "作者2026-10-30本轮提供的粘贴文本与中文刷光原文",
+  "normalization": "UTF-8 LF，仅统一换行与编码，正文不翻译、不删改",
+  "character_sha256": "7f98be8291fe64b8e06008e88b14bb0fe09fb3e52676814482b9adbe27f7e2e9",
+  "relighting_sha256": "2f46d4dced0c383f5e623a2833be16ea01bb08dce8a3f14a5952d4c9c383467f",
+  "character_same_text": true,
+  "relighting_same_text": true,
   "fresh_generation": false
 }

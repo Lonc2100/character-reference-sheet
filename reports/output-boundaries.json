@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "checks": {
     "single_reference_not_forced_grid": true,
     "no_images_no_visual_claim": true,

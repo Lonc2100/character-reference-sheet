@@ -1,7 +1,25 @@
-Use IMAGE 1 as the authoritative approved adult CHARACTER REFERENCE. IMAGE 2 is ENVIRONMENT LIGHTING REFERENCE ONLY.
-Task: relight the PERSON in IMAGE 1 for the environment in IMAGE 2. Do not composite the person into the environment.
-LOCK identity, adult age, facial structure, hairstyle, eyes, expression, outfit, body proportions, pose, camera view, crop, artistic medium and rendering style from IMAGE 1. Preserve the existing layout and background. If the source is a four-panel sheet, preserve all four panels and keep lower body views headless; do not create a new layout for a single-person reference.
-Observed environment lighting: <main light direction relative to the character and camera>; <main light color and softness>; <fill or rim sources visible or reasonably supported by the environment>; <ambient exposure relationship>.
-Change ONLY illumination falling on the character to fit those observed relationships. Create coherent form with directional light and connected shadows; retain readable eyes, natural skin appropriate to the approved style, and identifiable clothing material. White fabric remains white material under the actual illumination. Do not simply darken or tint the whole image.
-Keep the same face and approved design, do not redesign the character. Do not copy architecture, lanterns, moon, background texture, scenery or a second person from IMAGE 2. No extra props, text, arrows, labels or watermark. Keep an originally plain reference background plain.
-Output: the same character reference with adjusted CHARACTER LIGHTING. No side-by-side comparison or finished scene composite.
+图1是需要调整受光的人物参考图，图2是目标环境的光照参考。
+
+请仅调整图1中人物的受光，使其与图2的光照条件相匹配。输出仍为人物参考图，不要将人物合成进环境。
+
+【保持不变】
+严格保留图1的人物身份、五官、脸型、表情、发型、服装、配饰、体型、姿态、画风、视角与裁切。
+保持原有画布、排版及背景；如果是多视图参考图，保留各视图及其裁切，不新增头部、身体或其他内容。
+
+【根据环境调整受光】
+观察图2中可判断的主光方向、光源颜色、光线软硬、明暗对比，以及环境反射光和补光关系。
+结合人物在目标环境中的位置与朝向，将这些光照关系应用到人物上。无法判断的光源不要擅自添加。
+
+人物迎光面、背光面、投影、边缘光及材质反光应相互协调。多视图中的人物应遵循同一套光照逻辑，并随各自朝向合理变化，不能每格机械套用同样的亮暗位置。
+
+替换原人物参考中与目标环境冲突的受光。通过光照方向、阴影结构和自然衰减形成体积，不要只整体压暗、提亮或覆盖颜色滤镜。
+保留自然肤色、可辨识的五官和适当的暗部细节。服装与配饰保持原有材质和本色，仅改变其在目标光照下的明暗、色偏与反光表现。
+所有调整遵循图1原有画风，不擅自改成其他表现风格。
+
+【限制】
+图2只提供光照依据，不提供人物身份、造型、构图或背景内容。
+不要将图2中的任何物体、景物、纹理或空间结构复制进图1。
+不要改变图1背景，不新增人物、物件、文字或水印。
+不要为增强效果而添加图2没有依据的光源、轮廓光或夸张色偏。
+
+最终输出：人物身份、造型、画风、版式及背景保持不变，仅人物受光与目标环境相匹配的参考图。
