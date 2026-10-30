@@ -3,7 +3,7 @@
   "generated_at": "2026-10-30",
   "package": {
     "name": "character-reference-sheet",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "owner": "Lonc2100",
     "maturity_tier": "production",
     "lifecycle_stage": null,
@@ -16,19 +16,9 @@
     "target_users": [
       "AI视频创作者"
     ],
-    "inputs": [
-      "批准成年角色及身份/画风参考",
-      "可选：同一环境参考"
-    ],
-    "outputs": [
-      "人物参考/刷光提示词",
-      "输入对应和验收结果"
-    ],
-    "exclusions": [
-      "自动付费生成",
-      "自动发布",
-      "编造实际视频结果"
-    ],
+    "inputs": [],
+    "outputs": [],
+    "exclusions": [],
     "qiaomu_defaults": {}
   },
   "triggers": {
@@ -69,7 +59,10 @@
     ],
     "reports": [
       "reports\\creation-handoff.md",
+      "reports\\output-boundaries.json",
+      "reports\\package-validation.json",
       "reports\\prior-art-research.md",
+      "reports\\skill-ir.json",
       "reports\\template-integrity.json",
       "reports\\trigger-eval.json"
     ]
